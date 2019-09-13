@@ -4,7 +4,7 @@ main.js
 
 
 function main() {
-	const interval = 500
+	const interval = 250
 
 	var clock1Background = document.getElementById('clock1-background')
 	var clock2Background = document.getElementById('clock2-background')
@@ -85,6 +85,7 @@ function Clock(background, overlay, timezone) {
 	this.drawFace = drawFace
 	this.drawNumbers = drawNumbers
 	this.drawTime = drawTime
+	this.drawCenter = drawCenter
 	this.drawHourHand = drawHourHand
 	this.drawMinuteHand = drawMinuteHand
 	this.drawSecondHand = drawSecondHand
@@ -121,12 +122,6 @@ function Clock(background, overlay, timezone) {
 		this.backgroundCtx.lineWidth = this.radius*0.02
 		this.backgroundCtx.strokeStyle = this.color
 		this.backgroundCtx.stroke()
-
-		// center of the clock
-		this.backgroundCtx.beginPath()
-		this.backgroundCtx.arc(0, 0, this.radius * 0.05, 0, 2 * Math.PI)
-		this.backgroundCtx.fillStyle = this.color
-		this.backgroundCtx.fill()
 	}
 
 	function drawWidgets() {
@@ -158,12 +153,21 @@ function Clock(background, overlay, timezone) {
 	}
 
 	function drawTime(){
+		this.drawCenter()
 		this.drawHourHand()
 		this.drawMinuteHand()
 		this.drawSecondHand()		
 	}
 
-	function drawHourHand(context) {
+	function drawCenter() {
+		// center of the clock
+		this.overlayCtx.beginPath()
+		this.overlayCtx.arc(0, 0, this.radius * 0.05, 0, 2 * Math.PI)
+		// this.overlayCtx.fillStyle = this.color
+		this.overlayCtx.fill()
+	}
+
+	function drawHourHand() {
 		var hour = this.time.getHours() % 12
 		var minute = this.time.getMinutes()
 		var second = this.time.getSeconds()
@@ -173,7 +177,7 @@ function Clock(background, overlay, timezone) {
 		drawHand(this.overlayCtx, hour, l, w)
 	}
 
-	function drawMinuteHand(context) {
+	function drawMinuteHand() {
 		var minute = this.time.getMinutes()
 		var second = this.time.getSeconds()
 		minute = (minute*Math.PI/30)+(second*Math.PI/(30*60))

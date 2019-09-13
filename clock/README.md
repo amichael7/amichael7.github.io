@@ -16,7 +16,7 @@ http://bencentra.com/code/2014/12/05/html5-canvas-touch-events.html
 * Reset functionality
 
 
-### [ ] Weather widget
+### [ ] Weather widget [No Go]
 
 https://stackoverflow.com/questions/18949074/calculating-sunrise-sunset-times-in-javascript
 https://www.esrl.noaa.gov/gmd/grad/solcalc/
