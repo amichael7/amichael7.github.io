@@ -1,0 +1,18 @@
+/*
+script.css
+*/
+
+body {
+	background-color: none;
+}
+
+canvas {
+	background-color: none;
+
+}
+
+.wrapper {
+	margin-left: auto;
+    margin-right: auto;
+    display: block;
+}

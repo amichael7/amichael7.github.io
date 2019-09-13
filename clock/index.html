@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+	<meta charset="utf-8"/>
+	<title>Time in Sydney</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+	<h1>Time in Sydney</h1>
+	<p>What time is it in Sydney right now?</p>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-lg center-block">
+				<div class='wrapper' style="position: relative; width: 400px; height: 400px;">
+					<canvas id="clock1-background" width="400" height="400" style="position: absolute; z-index: 0;"></canvas>
+					<canvas id="clock1-overlay" width="400" height="400" style="position: absolute; z-index: 1;"></canvas>
+				</div>
+				<h3 style="text-align: center;">California</h3>
+			</div>
+			<div class="col-lg center-block" >
+				<div class='wrapper' style="position: relative; width: 400px; height: 400px;">
+					<canvas id="clock2-background" width="400" height="400" style="position: absolute; z-index: 0;"></canvas>
+					<canvas id="clock2-overlay" width="400" height="400" style="position: absolute; z-index: 1;"></canvas>
+				</div>
+				<h3 style="text-align: center;">Sydney</h3>
+			</div>
+		</div>
+	</div>
+
+	<!-- Post load functionality -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<script src="main.js"></script>
+</body>
+</html>
