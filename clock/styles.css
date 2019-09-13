@@ -13,16 +13,19 @@ body {
 	padding-bottom: 30px;
 }
 
-#header {
-	/*color: white;*/
-	/*background-color: black;*/
-}
 
 #header h1, #header p {
 	display: inline-block;
 	padding: 0 4px;
 }
 
+h1 {
+	font-size: 3em;
+}
+
+#header p {
+	font-size: 1em;
+}
 
 canvas {
 	background-color: none;
@@ -40,14 +43,13 @@ canvas {
 
 .bottom {
 	text-align: right;
-	font-size: 12px;
+	font-size: 0.9em;
 	color: white;
 	background-color: black;
 
 	position: absolute;
 	left: 0;
 	bottom: 0;
-	height: 25px;
 	width: 100%;
 	overflow: hidden;
 }
