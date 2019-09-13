@@ -11,8 +11,8 @@ function main() {
 	var clock1Overlay = document.getElementById('clock1-overlay')
 	var clock2Overlay = document.getElementById('clock2-overlay')
 
-	clock1 = new Clock(clock1Background, clock1Overlay)
-	clock2 = new Clock(clock2Background, clock2Overlay, 17)
+	clock1 = new Clock(clock1Background, clock1Overlay, 'America/Los_Angeles')
+	clock2 = new Clock(clock2Background, clock2Overlay, 'Australia/Sydney')
 
 	clock1.updateTime()
 	clock2.updateTime()
@@ -59,7 +59,7 @@ main()
 /*
 Clock object: all the paramaters and methods necessary to draw a clock
 */
-function Clock(background, overlay, offset) {
+function Clock(background, overlay, timezone) {
 	// variable definitions
 	this.height = background.height
 	this.overlayCtx = overlay.getContext('2d')
@@ -70,8 +70,10 @@ function Clock(background, overlay, offset) {
 	this.overlayCtx.translate(this.height/2, this.height/2)
 
 	this.color = '#888'
-	this.offset = offset == null ? 0 : offset
-	this.time = new Date()
+	// this.offset = offset == null ? 0 : offset
+	this.time
+
+	
 
 	this.ampmWidget = new AMPMWidget(this.backgroundCtx,this.radius)
 	this.dateWidget = new DateWidget(this.backgroundCtx, this.radius)
@@ -108,8 +110,8 @@ function Clock(background, overlay, offset) {
 
 	function updateTime() {
 		this.time = new Date()
-		var hr = this.time.getHours() + this.offset
-		this.time.setHours(hr)
+		var d = new Date().toLocaleString("en-US", {timeZone:timezone})
+		this.time = new Date(Date.parse(d))
 	}
 
 	function drawFace() {
