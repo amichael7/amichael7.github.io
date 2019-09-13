@@ -16,7 +16,15 @@ http://bencentra.com/code/2014/12/05/html5-canvas-touch-events.html
 * Reset functionality
 
 
-### [ ] Weather widget [No Go]
+### [ ] Sunrise and sunset mode
+
+* Night mode
+* Alter the weather icons
+
+
+### [ ] Weather widget
+
+__***Note: this is not possible without a server because of CORS restrictions in-browser__
 
 https://stackoverflow.com/questions/18949074/calculating-sunrise-sunset-times-in-javascript
 https://www.esrl.noaa.gov/gmd/grad/solcalc/
@@ -33,7 +41,3 @@ __Australian Weather:__
 * [Sydney Weather Feed (XML)](ftp://ftp.bom.gov.au/anon/gen/fwo/IDN11050.xml)
 * [Icon Guide](http://reg.bom.gov.au/info/forecast_icons.shtml)
 
-### [ ] Sunrise and sunset mode
-
-* Night mode
-* Alter the weather icons
