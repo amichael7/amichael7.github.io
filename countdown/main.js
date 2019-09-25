@@ -9,7 +9,7 @@ function timeUntil(target) {
 	ms = Date.now() % 1000
 
 	var diff = target - now
-	return Math.max(diff+ms)
+	return Math.max(diff+ms, 0)
 }
 
 function zeroPad(n, padding) {
