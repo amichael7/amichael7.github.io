@@ -1,0 +1,52 @@
+html {
+	/*position: relative;*/
+	height: 100%;
+	min-height: 100%;
+	margin: 0;
+}
+body { 
+	height: 80vh;
+	background-color: #111;
+	color: #cbd;
+	margin: 0;
+}
+
+div {
+	text-align: center;
+}
+
+h1 {
+	font-size: 5vh
+}
+
+#counter {
+	font-size: 10vw;
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+.fixed-bottom {
+	text-align: right;
+	font-size: 3vh;
+}
+
+
+@media only all and (orientation: portrait) {
+	#counter {
+		font-size: 12.5vw;
+	}
+}
+
+@media only screen and (max-height: 600	px) {
+	h1 {
+		font-size: 2em
+	}
+	.fixed-bottom {
+		text-align: right;
+		font-size: 1em;
+	}
+}
