@@ -4,6 +4,7 @@ main.js
 
 
 const CONFIG = {
+	'interval': 250,
 	'clock1': {
 		'location': 'California, USA',
 		'timezone': 'America/Los_Angeles',
@@ -25,7 +26,8 @@ const CONFIG = {
 }
 
 function main() {
-	const interval = 250
+
+	var interval = 	CONFIG['interval']
 
 	var clock1Background = document.getElementById('clock1-background')
 	var clock2Background = document.getElementById('clock2-background')
