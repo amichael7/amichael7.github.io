@@ -20,7 +20,7 @@ body {
 }
 
 #header p {
-	font-size: 1em;
+	font-size: 3vh;
 }
 
 canvas {
@@ -39,7 +39,7 @@ canvas {
 
 .fixed-bottom {
 	text-align: right;
-	font-size: 0.9em;
+	font-size: 2vh;
 	color: white;
 	background-color: black;
 }
@@ -48,24 +48,11 @@ canvas {
 /*
 Responsive Typography
 */
-html {
-  font-size: 1rem;
-}
-
-@include media-breakpoint-up(sm) {
-  html {
-    font-size: 1.2rem;
-  }
-}
-
-@include media-breakpoint-up(md) {
-  html {
-    font-size: 1.4rem;
-  }
-}
-
-@include media-breakpoint-up(lg) {
-  html {
-    font-size: 1.6rem;
-  }
+@media only screen and (max-height: 600	px) {
+	#header p {
+		font-size: 2em
+	}
+	.fixed-bottom {
+		font-size: 1em;
+	}
 }

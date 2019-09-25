@@ -8,9 +8,9 @@ This program is designed to display the time in Sydney and time in my location.
 - [X] Refactor ClockBackground 
 - [X] Refactor ClockOverlay
 - [X] Night mode image changes
-- [ ] Render sunrise widget images prior to displaying them 			to reduce latency
+- [ ] Render sunrise widget images prior to displaying them to reduce latency
 - [ ] Night mode color scheme changes
-- [ ] Add better sunset/sunrise photos, photos
+- [ ] Add better sunset/sunrise photos
 
 ### [ ] Manual Set time
 
@@ -24,9 +24,7 @@ http://bencentra.com/code/2014/12/05/html5-canvas-touch-events.html
 * Reset functionality
 
 
-### [X] Sunset widget
-
-Uses 
+### [X] Sunset widget 
 
 https://stackoverflow.com/questions/18949074/calculating-sunrise-sunset-times-in-javascript
 https://www.esrl.noaa.gov/gmd/grad/solcalc/
