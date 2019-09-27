@@ -5,13 +5,13 @@ main.js
 
 const CONFIG = {
 	'interval': 250,
-	'clock1': {
+	'_grassValley': {
 		'location': 'California, USA',
 		'timezone': 'America/Los_Angeles',
 		'latitude': 39.2188492, 
 		'longitude': -121.0887236
 	},
-	'_chicago': {
+	'clock1': {
 		'location': 'Chicago, USA',
 		'timezone': 'America/Chicago',
 		'latitude': 41.8339042,
