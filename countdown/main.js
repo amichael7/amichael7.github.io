@@ -23,16 +23,15 @@ function zeroPad(n, padding) {
 function msToTimeString(milliseconds) {
 	var dd = Math.floor(diff / 86400000)
 	diff -= dd * 86400000
-	var hh = Math.floor(diff / 3600000);
-	diff -= hh * 3600000;
-	var mm = Math.floor(diff / 60000);
-	diff -= mm * 60000;
-	var ss = Math.floor(diff / 1000);
-	diff -= ss * 1000;
-	var ms = diff
+	var hh = Math.floor(diff / 3600000)
+	diff -= hh * 3600000
+	var mm = Math.floor(diff / 60000)
+	diff -= mm * 60000
+	var ss = Math.floor(diff / 1000)
+	diff -= ss * 1000
+	var ms = Math.floor(diff / 10)
 
-	dd = zeroPad(dd, 2)
-	hh = zeroPad(hh, 2)
+	hh = zeroPad(hh, 2)		// formatting
 	mm = zeroPad(mm, 2)
 	ss = zeroPad(ss, 2)
 	ms = zeroPad(ms, 3)
@@ -49,9 +48,9 @@ function main() {
 	target = new Date(Date.parse(new Date().toLocaleString("en-US", {timeZone:'Australia/Sydney'})))
 	target.setFullYear(2019)
 	target.setMonth(10)
-	target.setDate(15)
-	target.setHours(21)
-	target.setMinutes(0)
+	target.setDate(23)
+	target.setHours(19)
+	target.setMinutes(35)
 	target.setSeconds(0)
 	target = target.valueOf()
 

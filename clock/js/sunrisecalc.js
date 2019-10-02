@@ -171,7 +171,7 @@ function SunriseCalc(time, latitude, longitude) {
 	this.calcSunsetGoldenHour = calcSunsetGoldenHour
 
 	function calcSunrise(offset) {
-		if (offset == null)		offset = 0
+		offset = offset == null ? 0 : offset
 		var jd = helper.getJulianDay(this.time)	
 
 		// Calculation pass 1
@@ -204,7 +204,7 @@ function SunriseCalc(time, latitude, longitude) {
 
 
 	function calcSunset(offset) {
-		if (offset == null)		offset = 0
+		offset = offset == null ? 0 : offset
 		var jd = helper.getJulianDay(this.time)
 
 		// Calculation pass 1
