@@ -34,7 +34,7 @@ function msToTimeString(milliseconds) {
 	hh = zeroPad(hh, 2)		// formatting
 	mm = zeroPad(mm, 2)
 	ss = zeroPad(ss, 2)
-	ms = zeroPad(ms, 3)
+	ms = zeroPad(ms, 2)
 
 	timeStr = dd+':'+hh+':'+mm+':'+ss+':'+ms
 	return timeStr
