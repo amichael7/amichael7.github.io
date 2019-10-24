@@ -3,7 +3,7 @@
 *10/24/2019*
 
 
-<div style='float: right; text-align: center; padding: 0 0 10 50'>
+<div style='float: right; text-align: center; padding: 0 0 10px 50px'>
 <img src='https://images.pexels.com/photos/2837572/pexels-photo-2837572.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940' height='300'>
 <p><i>Getting there...</i><sup>2</sup></p>
 </div>
