@@ -1,6 +1,5 @@
 # Jekyll configuration
-url: 'https://amichael7.github.io'
-markdown: GFM
+markdown: krmarkdown
 plugins:
   - jekyll-relative-links
 relative_links:
