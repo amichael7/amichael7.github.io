@@ -4,7 +4,7 @@
 *Alex Michael*
 
 <div style='float: right; text-align: center; padding: 0 0 10px 50px'>
-<img src='https://images.pexels.com/photos/2837572/pexels-photo-2837572.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940' height='300'>
+<img src='img/wanderer.jfif' height='300'>
 <p><i>Getting there...</i><sup>2</sup></p>
 </div>
 
@@ -21,6 +21,5 @@ The following are the best pieces of advice I found for breaking down tasks into
 Since my schedule is fairly self-determined, I will try out the chunking method over the next month and update this entry with my results and with functional insights gained from this exercise!
 
 ---
-\[1\]: Chunking is a commonly used memory technique that improves working memory, *see* [Wikipedia-Chunking (psychology)](https://en.wikipedia.org/wiki/Chunking_(psychology))
-
+\[1\]: Chunking is a commonly used memory technique that improves working memory, *see* [Wikipedia-Chunking (psychology)](https://en.wikipedia.org/wiki/Chunking_(psychology)) <br />
 \[2\]: Photo by [Brady Knoll](https://www.pexels.com/@trvlust) at [Pexels](https://www.pexels.com/)
