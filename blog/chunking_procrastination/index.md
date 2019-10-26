@@ -1,14 +1,14 @@
 # Chunking Method for Overcoming Procrastination
 
 *10/24/2019*
-
+*Alex Michael*
 
 <div style='float: right; text-align: center; padding: 0 0 10px 50px'>
 <img src='https://images.pexels.com/photos/2837572/pexels-photo-2837572.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940' height='300'>
 <p><i>Getting there...</i><sup>2</sup></p>
 </div>
 
-Envision that you have a particularly dull assignment, you think to yourself, I will be more motivated to do this when the deadline is closer.  This happens all the time to all types of people, in fact, I did this yesterday and caused myself a great deal of stress!  Procrastination can defeat the best laid plans for producing excellent work, no matter the underlying psychological obstacle.  Common reasons for procrastination include apathy towards the task, a feeling that the task is meaningless, or an uncertain or far-away deadline.  However, regardless of the reason, procrastination is a particularly pernicious form of self-sabatage because often the only consequence is maybe handing in a crappy assignment or pushing a deadline.  What makes the problem worse is that the more you procrastinate, the better you will get at it.
+Envision that you have a particularly dull assignment, you think to yourself, I will be more motivated to do this when the deadline is closer.  This happens all the time to all types of people, in fact, I did this yesterday and caused myself a great deal of stress!  Procrastination can defeat the best laid plans for producing excellent work, no matter the underlying psychological obstacle.  Common reasons for procrastination include apathy towards the task, a feeling that the task is meaningless, or an uncertain or far-away deadline.  However, regardless of the reason, procrastination is a particularly pernicious form of self-sabotage because often the only consequence is maybe handing in a crappy assignment or pushing a deadline.  What makes the problem worse is that the more you procrastinate, the better you will get at it.
 
 What if you could change all that?  Enter chunking.  I watched a [TED Talk](https://www.youtube.com/watch?v=TQMbvJNRpLE) (while procrastinating) that introduced me in very simple terms to the method, but framed in language that appealed to how I felt exactly at that moment.  So what is the chunking method?  Interestingly, chunking is a common way to improve cognitive efficiency in many areas<sup>1</sup>, but the area where I personally find I need the method most is in overcoming procrastination.  Chunking, applied to procrastination, is extremely simple: break down your projects or goals into smaller tasks.  While this advice is oft-repeated, I find it frustratingly vague so I did some research that I wanted to share here.
 
