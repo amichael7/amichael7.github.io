@@ -1,6 +1,6 @@
 # Exploring Polynote 
 
-*10/27/2019* | Alex Michael
+*10/30/2019* | Alex Michael
 
 <div style='text-align: center;'>
 <img src='img/logo.svg' height='50' style='background:linear-gradient(to bottom, #444444, black); padding:10px; border-radius: 10px;'>
@@ -88,7 +88,7 @@ After the minor headache of installing Polynote, trying to get it to run.  Once 
 
 <div style='text-align: center; float: right; padding: 0 0 10px 50px'>
     <br />
-    <img src='img/import_status.png' height='250'>
+    <img src='img/import-status.png' height='250'>
 </div>
 
 Once I was able to start the server, the next challenge was to start loading some data in to mess with.  From all indications, Polynote doesn't really like to deal with local files the same way that Jupyter does; the *modus operandi* seems to be to load in all data from Spark. This makes a lot of sense given that the folks over at Netflix probably aren't doing much local storage.  To get around this limitation, and since I don't want to stand up a spark clustor or RDBMS based data store, I will just process the CSV files locally then pass the data in a PostgreSQL database, then pull it into memory in the notebook.
@@ -99,13 +99,13 @@ One of the things that Polynote can do that amazed me is that you can run code o
 
 <div style='text-align: center;'>
     <br />
-    <img src='img/dataframe_view.png' height='300'>
+    <img src='img/dataframe-view.png' height='300'>
     <p><i>You can view your data with a single click!</i></p>
 </div>
 
 <div style='text-align: center;'>
     <br />
-    <img src='img/working.png' height='300'>
+    <img src='img/editor-w-output.png' height='300'>
     <p><i>Polynote's workflow is really nice</i></p>
 </div>
 
