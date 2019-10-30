@@ -4,6 +4,10 @@ My blog page is using Jekyll to render markdown files.  Check out the config and
 
 ## Todo
 
+[ ] Using Jekyll versus Bootstrap for page design
 [ ] Add a header / maybe a sidebar to blog posts
 [ ] I would love analytics to know if my content is popular!
+	* [Example](https://desiredpersona.com/google-analytics-jekyll/)
+[ ] Add a backend
+	* [Check out example](https://desiredpersona.com/google-analytics-jekyll/)
 

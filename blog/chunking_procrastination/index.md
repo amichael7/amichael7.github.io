@@ -1,7 +1,6 @@
 # Chunking Method for Overcoming Procrastination
 
-*10/24/2019*
-*Alex Michael*
+*10/24/2019* | Alex Michael
 
 <div style='float: right; text-align: center; padding: 0 0 10px 50px'>
 <img src='img/wanderer.jfif' height='300'>
