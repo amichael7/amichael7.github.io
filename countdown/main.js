@@ -46,10 +46,10 @@ function main() {
 
 	// Calculate target timestamp
 	target = new Date(Date.parse(new Date().toLocaleString("en-US", {timeZone:'Australia/Sydney'})))
-	target.setFullYear(2019)
-	target.setMonth(10)
-	target.setDate(23)
-	target.setHours(19)
+	target.setFullYear(2020)
+	target.setMonth(2)
+	target.setDate(29)
+	target.setHours(8)
 	target.setMinutes(35)
 	target.setSeconds(0)
 	target = target.valueOf()
