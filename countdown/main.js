@@ -42,7 +42,7 @@ function msToTimeString(milliseconds) {
 
 
 function main() {
-	interval = 50
+	interval = 60
 
 	// Calculate target timestamp
 	target = new Date(Date.parse(new Date().toLocaleString("en-US", {timeZone:'Australia/Sydney'})))
