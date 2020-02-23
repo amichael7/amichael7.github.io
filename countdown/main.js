@@ -29,7 +29,7 @@ function msToTimeString(milliseconds) {
 	diff -= mm * 60000
 	var ss = Math.floor(diff / 1000)
 	diff -= ss * 1000
-	var ms = Math.floor(diff / 10)
+	var ms = Math.floor((1000 - diff) / 10)
 
 	hh = zeroPad(hh, 2)		// formatting
 	mm = zeroPad(mm, 2)
