@@ -5,7 +5,7 @@
 
 function timeUntil(target) {
 	// convert the time now to Australian time
-	now = Date.parse(new Date().toLocaleString("en-US", {timeZone:'Australia/Sydney'}))
+	now = Date.parse(new Date().toLocaleString("en-US", {timeZone:'America/Los_Angeles'}))
 	ms = Date.now() % 1000
 
 	var diff = target - now
@@ -45,12 +45,12 @@ function main() {
 	interval = 60
 
 	// Calculate target timestamp
-	target = new Date(Date.parse(new Date().toLocaleString("en-US", {timeZone:'Australia/Sydney'})))
-	target.setFullYear(2020)
-	target.setMonth(1)
-	target.setDate(29)
-	target.setHours(8)
-	target.setMinutes(35)
+	target = new Date(Date.parse(new Date().toLocaleString("en-US", {timeZone:'America/Los_Angeles'})))
+	target.setFullYear(2021)
+	target.setMonth(0)
+	target.setDate(11)
+	target.setHours(11)
+	target.setMinutes(00)
 	target.setSeconds(0)
 	target = target.valueOf()
 
